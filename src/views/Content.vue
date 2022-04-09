@@ -14,6 +14,7 @@
           :key="index"
           :src="item"
           alt="图片丢失"
+          referrerpolicy="no-referrer"
         />
       </div>
       <div class="next"><h1 @click="next()">点击阅读下一话</h1></div>
